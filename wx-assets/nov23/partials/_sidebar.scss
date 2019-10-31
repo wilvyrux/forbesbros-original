@@ -1,0 +1,86 @@
+//#sidebar {
+//    background: $color-white;
+//    display: block;
+//    margin: 0;
+//    padding: 0;
+//        
+//        aside {
+//            margin-bottom: 0;
+//            padding: 0;
+//        }
+//        
+//        
+//        h5.widget-title {
+//            margin: 0;
+//            font-size: 1.5em;
+//            text-transform: capitalize;
+//            margin-bottom: 15px;
+//            padding: 5px 20px;
+//            position: relative;
+//            background: $color-primary;
+//            color: $color-white;
+//            margin-bottom: 0;
+//            
+////            &:before {
+////                position: absolute;
+////                width: 50px;
+////                height: 1px;
+////                background: $color-primary;
+////                content: '';
+////                left: 20px;
+////                bottom: -5px;
+////            }
+//        }
+//        
+//        ul {
+//            padding: 0 !important;
+//            margin: 0;
+//            
+//            li {
+//                line-height: 24px;
+//                display: block;
+//                padding: 0;
+//                
+//                &::before {
+//                    display: none;
+//                }
+//                
+//                a {
+//                    text-decoration: none;
+//                    color: $color-secondary;
+//                    display: block;
+//                    padding: 5px 20px;
+//                      border-bottom: 1px solid $color-lightgray2;
+//                    text-transform: uppercase;
+//                }
+//                
+//                &:hover {
+//                    background: $color-primary; 
+//                    
+//                    a {
+//                        color: $color-white;
+//                    }
+//                }
+//                
+//                &:last-child {
+//                    a {
+//                        border-bottom: 0 !important;
+//                    }
+//                }
+//                
+//                
+//            }
+//            
+//            
+//            li.current-menu-item {
+//                a {
+//                    background: $color-primary;
+//                    color: $color-white;
+//                    pointer-events: none;
+//                }
+//               
+//            }
+//        }
+//        
+//    
+//}

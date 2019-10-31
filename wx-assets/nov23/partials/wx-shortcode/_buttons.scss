@@ -1,0 +1,88 @@
+
+
+//****************************
+//BUTTONS 
+//****************************
+
+//BUTTONS STYLE 1 
+.wx-button {
+    text-decoration: none !important;
+    display: block;
+
+    .primary-button,
+    .secondary-button
+    {
+        display: inline-block;
+        padding: 10px 40px;
+        text-transform: uppercase;
+        font-family: $font-primary;
+        margin: 0;
+        color: $color-white;
+
+
+        &:hover {
+            background: $color-secondary;
+            color: $color-white;
+        }
+    }
+
+
+    .primary-button {
+        background: transparent;
+        border: 0;
+        color: $color-third;
+        font-weight: $bold;
+        @include border-radius(50px);
+        @include border(3px,solid,$color-white);
+        
+        &:hover {
+            opacity: .6;
+            background: $color-primary;
+            color: $color-white;
+            @include float-shadow; 
+        }
+        
+    }
+
+    .secondary-button {
+        border:transparent;
+        font-weight: $bold;
+        padding: 15px 20px;
+        @include border-radius(5px);
+        
+        &::before {
+            
+            content: "\f095";
+            margin-right: 10px;
+            @include fontawesome;
+            font-size:1.3em; 
+            
+        }
+        
+      
+        
+    }
+    
+       
+    
+    .third-button {
+        color: $color-white;
+        padding-bottom: 25px;
+        background: $color-primary;
+        display: inline-block;
+        padding: 5px 10px;
+        
+        &::after {
+            content: "\f178";
+            margin-left: 5px;
+            @include fontawesome;
+        }
+        
+    }
+    
+
+
+
+}
+
+

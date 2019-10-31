@@ -1,0 +1,257 @@
+ .gform_wrapper {
+        max-width: 100% !important;
+        margin: 0;
+     
+     
+        .validation_error {
+            font-size: 11px !important;
+            background: $color-primary;
+            padding: 11px !important;
+            color: $color-white !important;
+            border: 0 !important;
+        }
+     
+       
+     
+        
+        .gform_heading {
+            display: none;
+        }
+        
+        .gform_body {
+            
+            
+            ul {
+                
+                &:after {
+                    display: block;
+                    content: '';
+                    clear: both;
+                }
+                
+                   .gfield.gfield_error, 
+                   .gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+                        padding: 5px !important;
+                        background: $color-primary;
+                        max-width: 100% !important;
+                        width: 100% !important;
+                        color: $color-white !important;
+                    }
+                
+                
+                
+                li {
+                    width: 100%;
+                    margin-bottom: 5px;
+                    position: relative;
+                    float: left;
+                    clear: both;
+                    display: block;
+                    
+                    input, button, select, textarea {
+                        width: 100% !important;
+                        color: $color-gray;
+                        padding: 10px;
+                        background: $color-white;
+                        outline: 0;
+                        @include border($value:1px, $color:$color-primary);
+                        padding-left: 10px;
+                        font-family: $font-secondary;
+                         
+                        
+                    }
+                    
+                    
+                    > label {
+                        display: none !important;
+                    }
+                    
+//                    &:first-child, 
+//                    &:nth-child(2)
+//                    {
+//                        float: left;
+//                        clear: none !important;
+//                        width: 49% !important;
+//                       
+//                        
+//                        @media only screen and (max-width:800px) {
+//                            width: 100% !important;
+//                        }
+//                        
+//                    }
+//                    
+//                    &:first-child {
+//                        margin-right: 10px;
+//                        
+//                        input {
+//                           width: 97% !important;
+//                            
+//                            @media only screen and (max-width:800px) {
+//                                width: 100% !important;
+//                            }
+//                        }
+//                    }
+//                    
+                    
+//                    .ginput_container_text,
+//                    .ginput_container_textarea,
+//                    .ginput_container_email {
+//                        position: relative;
+//                        margin: 0;
+//                        
+//                        &:before {
+//                            position: absolute;
+//                            top: 10px;
+//                            content: '';
+//                            left: 8px;
+//                            width: 24px;
+//                            height: 24px;
+////                            background: #f99;
+//                            @include fontawesome;
+//                            font-size: 1.5em;
+//                            color: $color-gray;
+//                        }
+//                    }
+
+                }
+                
+//                .name-icon {
+//                     .ginput_container_text,.ginput_container_textarea {
+//                        
+//                        &:before {
+//                            content: "\f007";
+//                        }
+//                    }
+//                }
+//                
+//                .email-icon {
+//                    .ginput_container_text,
+//                    .ginput_container_textarea,
+//                    .ginput_container_email {
+//                        
+//                        &:before {
+//                            content: "\f0e0";
+//                        }
+//                    }
+//                }
+//                
+//                .phone-icon {
+//                     .ginput_container_text,.ginput_container_textarea {
+//                        
+//                        &:before {
+//                            content: "\f095";
+//                        }
+//                    }
+//                }
+//                
+//                .pen-icon {
+//                     .ginput_container_text,.ginput_container_textarea {
+//                        
+//                        &:before {
+//                            content: "\f040";
+//                        }
+//                    }
+//                }
+                
+                
+                
+            }
+        }
+        
+        .gform_footer {
+            
+            input[type="submit"] {
+                background: $color-primary;
+                color: $color-white;
+                text-transform: uppercase;
+                border: 0;
+                padding: 8px 40px;
+                @include transition(.3s);
+                
+                &:hover {
+                    background: $color-secondary;
+                    color: $color-white;
+                }
+                
+            }
+            
+        }
+        
+        
+}
+
+
+//
+//#contact-form-wrapper {
+//    
+//        .gform_wrapper {
+//
+//            .gform_body {
+//
+//
+//                ul {
+//
+//
+//                    li {
+//                        width: 50%;
+//                        margin-bottom: 15px;
+//                        padding: 20px !important;
+//                        margin-bottom: 5px;
+//                        position: relative;
+//                        clear: both;
+//                        display: block;
+//                        
+//
+//                        input, button, select, textarea {
+//                            width: 50% !important;
+//                            color: $color-gray;
+//                            padding: 10px;
+//                            background: $color-white;
+//                            outline: 0;
+//                            @include border($value:1px, $color:$color-primary);
+//                            padding-left: 30px;
+//                            font-family: $font-secondary;
+//
+//                        }
+//                        
+//                        textarea {
+//                            height: 250px;
+//                        }
+//                        
+//                    }
+//
+//
+//
+//
+//
+//                }
+//            }
+//
+//            .gform_footer {
+//
+//                input[type="submit"] {
+//                    background: $color-primary;
+//                    color: $color-white;
+//                    text-transform: uppercase;
+//                    border: 0;
+//                    padding: 8px 40px;
+//                    @include transition(.3s);
+//
+//                    &:hover {
+//                        background: $color-darkblue;
+//                        color: $color-white;
+//                    }
+//
+//                }
+//
+//            }
+//
+//
+//        }
+//    
+//    
+//}
+
+
+
+

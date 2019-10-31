@@ -1,0 +1,10 @@
+//about forbes eleements
+
+.pull-image-reset {
+    
+    @media only screen and (max-width:800px) {
+        > div {
+            margin: 10px 0 !important;
+        }
+    }
+}

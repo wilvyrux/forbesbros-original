@@ -1,0 +1,467 @@
+//about forbes eleements
+
+.pull-image-reset {
+    
+    @media only screen and (max-width:800px) {
+        > div {
+            margin: 10px 0 !important;
+        }
+    }
+}
+
+
+.big-text {
+    p {
+        font-size: 1.1em !important;
+        line-height: 24px;
+    }
+}
+
+
+
+.container-fluid.padding-x-70-lg.header-container {
+    padding-top: 15px;
+}
+
+
+
+//SUBPAGE BANNER
+.page-big-title, 
+.page-header
+
+{
+    height: 400px;
+    position: relative;
+//    border-bottom: 2px solid $color-primary;
+    margin-bottom: 0px !important;
+    
+    
+    @media only screen and (max-width:800px) {
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    &:before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        @include t-black(.6);
+    }
+    
+    .container {
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 35px;
+        height: 100px;
+        position: absolute;
+        
+        .row  {
+            
+            h3,
+            h2
+            
+            {
+                font-family: $font-primary;
+                text-transform: uppercase;
+                font-size: 4em;
+                position: relative;
+//                bottom: 20px !important;
+                left: 0;
+                padding: 0;
+                
+                &:before {
+                    position: absolute;
+                    top: -10px;
+                    width: 250px;
+                    height: 3px;
+                    background: $color-primary;
+                    content: '';
+                    left: 0;
+                }
+                
+                
+                @media only screen and (max-width:800px) {
+                    font-size: 2em;
+                    left: 5%;
+                }
+                
+                
+            }
+            
+            .breadcrumb.media-middle {
+                position: absolute;
+                bottom: 0;
+                background: $color-primary;
+                width: 100% !important;
+                max-width: 100%;
+                padding: 15px !important;
+                border-radius: 0;
+                margin: 0;
+                color: $color-darkorange;
+                
+                display: none;
+                
+                > span {
+                   
+                    a {
+                        color: $color-white;
+                        text-decoration: none;
+                    }
+                    
+                    color: $color-darkorange;
+                    text-transform: uppercase;
+                }
+            }
+            
+            
+            
+        }
+           
+    }
+    
+}
+
+
+.page-id-3422,
+.page-id-3811,
+.single-forbes_branches
+{
+    
+    .page-big-title, 
+    .page-header
+
+    {
+        &:before {
+            @include t-black(.2);
+        }
+    }
+    
+}
+
+
+
+.archive  {
+    .page-big-title.default {
+        height: 400px !important;
+            
+        @media only screen and (max-width:800px) {
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+            
+    }
+}
+
+
+
+
+
+//TABLES
+
+table,tr,td,th {
+    border: 0;
+    outline: 0;
+    
+}
+
+
+table {
+    tbody,thead {
+        tr {
+            td,th {
+                
+                vertical-align: top;
+                
+                h1,h2,h3,h4 {
+                    font-size: 1.2em;
+                    text-transform: uppercase;
+                }
+                
+                strong {
+                    display: inline-block;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+    
+.contact-info-wrapper {
+    table {
+        
+        tbody {
+            tr {
+                
+                th,td {
+                    padding: 5px 0;
+                    vertical-align: top;
+                }
+                
+                
+                th {
+                    width: 25%;
+                   
+                }
+                
+            }
+        }
+       
+    }
+    
+}
+
+
+
+
+
+
+//single career page
+.career-content  {
+    
+    tbody {
+        tr {
+            border-bottom: 1px solid $color-lightgray;
+            
+            th {
+                width: 20%;
+                font-size: 1.2em;
+                vertical-align: top;
+                color: $color-primary;
+            }
+            
+            td {
+                
+                h1 {
+                    font-size: 1.8em !important;
+                    margin: 0;
+                    font-family: $font-primary;
+                }
+                
+                
+                width: 80%;
+                > ul {
+                    margin: 0;
+                    
+                    > li {
+                        vertical-align: middle;
+                        
+                        &:before {
+                            content: "\f105";
+                            @include fontawesome;
+                            margin-right: 5px;
+                        }
+                        
+                        i {
+                            margin-right: 8px !important;
+                        }
+                        
+                        ul {
+                            li {
+                                &:before {
+                                    content: "\f105";
+                                    @include fontawesome;
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            th,td {
+                padding: 10px;
+            }
+            
+        }
+    }
+    
+}
+
+
+.career-lists {
+    table {
+        thead {
+            tr {
+                th {
+                    color: $color-white;
+                    border: 0;
+                    background: $color-primary;
+                    border-right: 1px solid $color-white;
+                }
+            }
+        }
+        
+        tbody {
+            tr {
+                td {
+                    text-transform: capitalize; 
+                    
+                    a {
+                        font-weight: $bold;
+                        color: $color-primary;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+//RELATED PROJECTS
+.related-projects, 
+.service-projects-wrapper 
+{
+    
+    
+    margin-top: 50px;
+    
+    div {
+        padding: 0;
+    }
+
+    .title-holder {
+        border-bottom: 2px solid $color-secondary;
+        margin-bottom: 30px;
+        
+        h4 {
+            background: $color-secondary;
+            color: #fff;
+            display: inline-block;
+            margin: 0;
+            padding: 10px 20px;
+        }
+        
+    }
+    
+    .content-holder {
+        padding: 0 20px !important;
+        
+        h4 {
+            display: block;
+            margin: 0;
+            color: $color-primary;
+        }
+        
+        .project-content {
+            font-size: .9em;
+            line-height: 24px;
+            
+        }
+        
+        a {
+            text-decoration: none;
+            background: $color-secondary;
+            color: $color-white;
+            padding: 5px 10px;
+            font-size: .8em;
+            display: inline-block;
+            text-transform: uppercase;
+            
+            &:hover {
+                opacity: .5;
+            }
+        }
+    }
+    
+   
+    
+}
+
+
+
+.service-projects-wrapper  {
+    margin: 50px 0;
+    
+    &:after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+}
+
+
+
+
+
+
+//FOR COMMUNITY FIRST & NEWS LANDING PAGE 
+
+.page-id-3726,
+.page-id-3718
+{
+    
+    .post-list-holder {
+        margin: 50px 0;
+        
+        
+        div {
+            padding: 0;
+        }
+
+        > div {
+            margin-bottom: 25px;
+        }
+        
+        .col-md-8 {
+            padding-left: 15px !important;
+            
+            h4 {
+                font-size: 1.8em;
+                text-transform: uppercase;
+                font-family: $font-primary;
+            }
+            
+            
+            a {
+                display: inline-block;
+                background: $color-primary;
+                padding: 5px 15px;
+                color: $color-white;
+                text-decoration: none;
+                @include border-radius(5px);
+                text-transform: uppercase;
+                font-size: .9em !important;
+                font-weight: bold;
+                
+                &:hover {
+                    background: $color-secondary;
+                    opacity: .6;
+                }
+                
+            }
+            
+            
+        }
+    }
+    
+}
+
+
+
+
+//GOOGLE PLUGINS
+
+#asl-storelocator.container.no-pad.storelocator-main.asl-p-cont.asl-bg-0 {
+    width: 96% !important;
+    max-width: 96% !important; 
+}
+
+//#asl-storelocator.asl-p-cont.asl-bg-0 .Num_of_store,
+//#asl-storelocator.asl-p-cont.asl-bg-0 .col-xs-12.search_filter .asl-store-search > span
+

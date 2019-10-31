@@ -1,0 +1,135 @@
+#menu-slideout {
+    background: $color-primary;
+    
+    .mobile-menu {
+        > ul {
+        
+            li {
+                border-bottom: 1px solid $color-darkorange;
+            }
+        
+        }
+    }
+}
+
+
+
+//RIGHT SIDE MENU
+
+.menu-sidemenu {
+    
+    #nav_menu-7 {
+        margin-bottom: 10px;
+    }
+    #menu-change-language {
+        text-align: center;
+        li {
+            display: inline-block; 
+            a {
+                padding: 0 10px;
+                display: block;
+                border: 1px solid $color-white;
+            }
+        }
+    }
+    
+    .textwidget {
+        color: $color-gray;
+    }
+    
+    ul {
+        li {
+            line-height: 24px;
+            a {
+                color: $color-primary;
+                text-decoration: none;
+                font-family: $font-primary;
+                font-size: 1.1em;
+                padding: 2px 0;
+            }
+        }
+    }
+}
+
+
+
+
+header {
+    
+    .main-navigation {
+        
+        ul.menu {
+            text-align: right;
+            
+                > li {
+                    > a {
+                        font-family: $font-primary;
+                        font-size: 1.2em !important;
+                        text-decoration: none;
+                        
+                        &:hover {
+                            opacity: .6; 
+                        }
+                    }
+                }
+            
+                li {
+                    a {
+
+                    }
+                    
+                    ul.sub-menu {
+                        li {
+                            a {
+                                color: $color-dark;
+                                text-transform: uppercase; 
+                                text-decoration: none !important;
+                            }
+                        }
+                    }
+                    
+                    
+                }
+            
+        }
+        
+    }
+    
+}
+
+
+.header.headroom.headroom--not-top {
+    background: $color-primary;
+    border-bottom: 0;
+    
+    @media only screen and (max-width:800px) {
+        top: 0 !important;
+    }
+    
+    .main-navigation {
+        
+        ul.menu {
+            
+            li {
+                a {
+                    color: $color-white;
+                }
+                
+                ul.sub-menu {
+                        li {
+                            a {
+                                color: $color-dark;
+                                text-transform: uppercase; 
+                                text-decoration: none !important;
+                            }
+                        }
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+    
+}

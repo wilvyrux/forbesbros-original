@@ -1,0 +1,189 @@
+//
+//@mixin absolute {
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//    height: 100%;
+//}
+//
+//
+//@mixin fixed {
+//    position: fixed;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//    height: 100%;
+//}
+//
+//@mixin resets {
+//    padding: 0 !important;
+//    margin: 0 !important;
+//}
+//
+//
+////NEW VARIATION
+//$blacktransparent: rgba(0,0,0,.9); 
+//
+//
+//.getquote-product {
+//    @include fixed;
+//    background: $blacktransparent;
+//    z-index: 9999;
+//    display: none;
+//    overflow: auto;
+//    
+//    
+//    .invisible_btn {
+//       position: absolute;
+//        left: 0;
+//        width: 100%;
+//        height: 100%;
+//        top: 0;
+//    }
+//    
+//    
+//    .quote-wrapper {
+//        position: relative;
+//        margin-top: 10%;
+//        background: $color-primary;  
+//        max-width: 623px;
+//        padding: 0;
+//        overflow: hidden;
+//        
+//        .col-md-12 {
+//            padding: 0;
+//        }
+//        
+//        
+//        .close2 {
+//            display: inline-block;
+//            color: $color-white;
+//            width: 40px;
+//            background:$color-maroon;
+//            text-align: center;
+//            height: 40px;
+//            font-size: 24px;
+//        }
+//        
+//        
+//        .header-wrapper {
+//            h3 {
+//                font-size: 22px;
+//                text-transform: uppercase;
+//                color: $color-secondary;
+//            }
+//        }
+//        
+//        .header-title {
+//            text-align: center;
+//            padding: 0 0;
+//            
+//            
+//            p {
+//                color: $color-white;
+//                margin-bottom: 0;
+//                
+//            }
+//            
+//        }
+//        
+//        .body-content {
+//            padding: 20px;
+//            
+//            section {
+//                background: transparent !important;
+//                background-color: transparent !important; 
+//                position: relative;
+//                
+//                div {
+//                    width: 100%;
+//                    @include resets;
+//                    
+//                    
+//                    .wpb_text_column.wpb_content_element.form-details { 
+//                        position: absolute;
+//                        width: 45%;
+//                        top: 10px;
+//                        right: 0;
+//                        display: block !important; 
+//                        color: $color-white;
+//                        
+//                        h6 {
+//                            color: $color-white;
+//                            font-size: 16px;
+//                            border-bottom: 1px solid $color-lightgray;  
+//                            margin-bottom: 10px;
+//                        }
+//                        
+//                        ul {
+//                            @include resets;
+//                            list-style: none;
+//                            margin-bottom: 35px;
+//                            
+//                            li {
+//                                margin-bottom: 15px;
+//                                
+//                                i {
+//                                    color: $color-secondary;
+//                                    margin-top: 3px;
+//                                    font-size: 18px;
+//                                }
+//                                
+//                                
+//                            }
+//                        }
+//                        
+//                        p {
+//                            
+//                            
+//                            i.fa.fa-lock {
+//                                    font-size: 88px;
+//                                    margin-top: -10px; 
+//                            }
+//                                
+//                                
+//                        }
+//                        
+//                        
+//                        
+//                        
+//                    }
+//                    
+//                    
+//               
+//                }
+//                
+//            }
+//            
+//            
+//        }
+//        
+//        .gform_footer {
+//            
+//            input[type="submit"] {
+//                background: $color-maroon;
+//                color: $color-white;
+//                text-transform: uppercase;
+//                padding: 10px 30px;
+//                @include border-radius(5px);
+//                @include transition(.3s); 
+//                display: inline-block;
+//                border: 0 !important;
+//                width: 100%;
+//                
+//                &:hover {
+//                    background: $color-primary;
+//                    color: $color-white;
+//                }
+//                
+//            }
+//            
+//        }
+//        
+//    }
+//    
+//    
+//}
+//
+//

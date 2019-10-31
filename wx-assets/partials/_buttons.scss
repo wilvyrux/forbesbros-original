@@ -1,0 +1,19 @@
+.apply-button-wrapper {
+    
+    text-align: center;
+    padding: 50px 0;
+    
+    button {
+        background: $color-primary;
+        color: $color-white;
+        padding: 10px 40px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        display: inline-block; 
+        
+        &:hover {
+            background: $color-secondary;
+        }
+    }
+    
+}
